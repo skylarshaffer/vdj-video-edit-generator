@@ -142,7 +142,7 @@ python createvdjedit.py "path/to/audio" "path/to/videos" "path/to/output"
 
 ## Roadmap
 
-[] Allow audio-source, video-source, and output-dir to accept filenames in addition to directories.
+- [ ] Allow audio-source, video-source, and output-dir to accept filenames in addition to directories.
 
 ## AI Disclosure
 
