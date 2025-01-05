@@ -1,7 +1,7 @@
 # vdj-video-edit-generator
 Generate a simple, automatically offset Video Edit file for Virtual DJ from similar source audio and video files.
 
-A single Python script to run on specified files, folders, or against its own parent folder.
+A single Python script to run on specified folders or against its own parent folder.
 
 ## Overview
 
