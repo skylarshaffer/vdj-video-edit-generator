@@ -3,6 +3,10 @@ Generate a simple, automatically offset Video Edit file for Virtual DJ from simi
 
 A single Python script to run on specified folders or against its own parent folder.
 
+**VIDEO FILES MUST HAVE IDENTICAL FILENAME (EXCLUDING EXTENSION) TO AUDIO FILE, THEY MAY HAVE DIFFERENT PARENT FOLDERS**
+
+To rename many video files to match song titles at once, I recommend MP3Tag (for filename editing only). It is still tedious but easier than file explorer. Be careful when renaming files, as they may break existing DB connections in Virtual DJ.
+
 ## Overview
 
 1. **File Discovery**
