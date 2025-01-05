@@ -67,10 +67,15 @@ The script can be run using either named arguments or positional arguments:
 
 ### Arguments
 
-1. `--audio-source`, `-a`: Directory containing audio files
-2. `--video-source`, `-v`: Directory containing corresponding video files (or specify a specific filename)
-3. `--output-dir`, `-o`: Directory where .vdjedit files will be created (or specify a specific filename if one file only)
-4. `--overwrite`, `-w`: Optional flag to overwrite existing .vdjedit files (default: False)
+1. `--audio-source`, `-a`: Directory containing audio files (default: parent directory of the script (.\))
+2. `--video-source`, `-v`: Directory containing corresponding video files (default: parent directory of the script (.\))
+3. `--output-dir`, `-o`: Directory where .vdjedit files will be created (default: parent directory of the script(.\))
+4. `--overwrite`, `-w`: Optional flag to overwrite existing .vdjedit files (default: false)
+
+### Example with No Arguments (use script parent folder for every argument):
+```bash
+python createvdjedit.py
+```
 
 ### Example with Some Arguments:
 ```bash
